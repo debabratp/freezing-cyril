@@ -5,7 +5,7 @@ pipeline{
 	agent{
 		docker {
 			image 'maven'
-			label 'my-pipeline-test'
+			//label 'my-pipeline-test'
 			args '-u vagrant'
 			}
 	}
