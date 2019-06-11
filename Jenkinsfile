@@ -6,7 +6,8 @@ pipeline{
 		docker {
 			image 'maven'
 			//label 'my-pipeline-test'
-			args '-u vagrant'
+			args '-u root'
+			alwaysPull true
 			}
 	}
 
