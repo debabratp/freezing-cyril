@@ -7,7 +7,7 @@ pipeline{
 			image 'maven'
 			//label 'my-pipeline-test'
 			args '-u root'
-			alwaysPull true
+			//alwaysPull true
 			}
 	}
 
